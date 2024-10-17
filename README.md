@@ -1,5 +1,5 @@
 # Feather Wallet
-i
+ii
 
 Feather is a free Monero desktop wallet for Linux, Tails, macOS and Windows. It is written in C++ with the Qt framework.
 
