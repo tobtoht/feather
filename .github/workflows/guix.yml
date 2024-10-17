@@ -42,9 +42,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
-          fetch-tags: true
+          fetch-depth: 0
           submodules: recursive
+      - name: git fetch tags
+        run: git fetch --tags
       - name: remove bundled packages
         run: sudo rm -rf /usr/local
       - name: depends sources cache
